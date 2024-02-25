@@ -1,8 +1,10 @@
-# The number the user needs to guess
-numberToGuess = 30
+import random  # Import the random module
+
+# Generate a random number between 0 and 100
+numberToGuess = random.randint(0, 100)
 
 # Ask the user for a guess
-guess = int(input("Please guess the number: "))
+guess = int(input("Please guess the number between 0 and 100: "))
 
 # Keep asking for a guess until it's correct
 while guess != numberToGuess:
@@ -15,4 +17,3 @@ while guess != numberToGuess:
 
 # If the loop ends, the guess was correct
 print("Well done! Yes, the number was ", numberToGuess)
-In this code:
