@@ -15,4 +15,3 @@ while guess != numberToGuess:
 
 # If the loop ends, the guess was correct
 print("Well done! Yes, the number was ", numberToGuess)
-In this code:
